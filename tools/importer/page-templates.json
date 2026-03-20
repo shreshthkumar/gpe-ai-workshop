@@ -1,0 +1,177 @@
+{
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.gpe.co.uk/"
+      ],
+      "description": "GPE corporate homepage with hero carousel, workspace types, customer charter, property search, featured properties, value propositions, thought leadership, testimonials, sustainability content, and latest news",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [
+            ".hero-glide"
+          ]
+        },
+        {
+          "name": "cards-promo",
+          "instances": [
+            ".promo-card-grid"
+          ]
+        },
+        {
+          "name": "columns-banner",
+          "instances": [
+            ".themed-content.theme--purple"
+          ]
+        },
+        {
+          "name": "embed-search",
+          "instances": [
+            ".quick-search"
+          ]
+        },
+        {
+          "name": "cards-listing",
+          "instances": [
+            ".flex-grid__wrap.bg-circle-tr-purple .flex-grid__content",
+            ".flex-grid__wrap.m-centered.w-max-lg:not(.bg-circle-tr-purple):not(.bg-circle-tr-green) .flex-grid__content",
+            ".flex-grid__wrap.bg-circle-tr-green .flex-grid__content",
+            ".news-glide"
+          ]
+        },
+        {
+          "name": "cards-feature",
+          "instances": [
+            ".circle-card"
+          ]
+        },
+        {
+          "name": "carousel-testimonial",
+          "instances": [
+            ".feature-glide"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Carousel",
+          "selector": ".hero-glide",
+          "style": null,
+          "blocks": [
+            "carousel-hero"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Workspace Types",
+          "selector": ".promo-card-grid",
+          "style": null,
+          "blocks": [
+            "cards-promo"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Customer Charter Banner",
+          "selector": ".themed-content.theme--purple",
+          "style": "purple",
+          "blocks": [
+            "columns-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Find Perfect Space",
+          "selector": ".quick-search",
+          "style": null,
+          "blocks": [
+            "embed-search"
+          ],
+          "defaultContent": [
+            ".quick-search__title"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Featured Properties",
+          "selector": ".flex-grid__wrap.bg-circle-tr-purple",
+          "style": null,
+          "blocks": [
+            "cards-listing"
+          ],
+          "defaultContent": [
+            ".flex-grid__heading"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Why GPE",
+          "selector": [
+            ".circle-card",
+            "h1.heading.heading--primary"
+          ],
+          "style": null,
+          "blocks": [
+            "cards-feature"
+          ],
+          "defaultContent": [
+            "h1.heading.heading--primary"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Thought Leadership Articles",
+          "selector": ".flex-grid__wrap.m-centered.w-max-lg:not(.bg-circle-tr-purple):not(.bg-circle-tr-green)",
+          "style": null,
+          "blocks": [
+            "cards-listing"
+          ],
+          "defaultContent": [
+            ".flex-grid__heading"
+          ]
+        },
+        {
+          "id": "section-8",
+          "name": "Customer Testimonials",
+          "selector": ".feature-glide",
+          "style": null,
+          "blocks": [
+            "carousel-testimonial"
+          ],
+          "defaultContent": [
+            ".feature__heading"
+          ]
+        },
+        {
+          "id": "section-9",
+          "name": "Helping London Thrive",
+          "selector": ".flex-grid__wrap.bg-circle-tr-green",
+          "style": null,
+          "blocks": [
+            "cards-listing"
+          ],
+          "defaultContent": [
+            ".flex-grid__heading"
+          ]
+        },
+        {
+          "id": "section-10",
+          "name": "Latest News",
+          "selector": ".news-glide",
+          "style": null,
+          "blocks": [
+            "cards-listing"
+          ],
+          "defaultContent": [
+            ".heading.heading--primary.text-center"
+          ]
+        }
+      ]
+    }
+  ]
+}

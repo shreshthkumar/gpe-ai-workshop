@@ -1,0 +1,125 @@
+/* Cards Feature - GPE "Why GPE" value proposition cards with circle images */
+
+/* Section-level layout: when multiple cards-feature blocks exist in same section,
+   arrange them in a grid row (since each block has only 1 card item) */
+.section.cards-feature-container {
+  background-color: var(--color-light-gray);
+  text-align: center;
+}
+
+.section.cards-feature-container > div {
+  max-width: var(--content-max-width);
+  margin: auto;
+  padding: var(--content-padding);
+}
+
+.section.cards-feature-container > .default-content-wrapper h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section.cards-feature-container > .default-content-wrapper:last-child {
+  margin-top: 20px;
+}
+
+.section.cards-feature-container > .default-content-wrapper:last-child a {
+  color: var(--color-navy);
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.section.cards-feature-container > .default-content-wrapper:last-child a::after {
+  content: '\203A';
+  font-size: 1.3em;
+  line-height: 1;
+}
+
+/* Block styles */
+.cards-feature > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+.cards-feature > ul > li {
+  background-color: transparent;
+  border: none;
+  text-align: center;
+}
+
+.cards-feature .cards-feature-card-image {
+  line-height: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.cards-feature > ul > li img {
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.cards-feature .cards-feature-card-body {
+  padding: 0;
+}
+
+.cards-feature .cards-feature-card-body p {
+  margin: 0 0 8px;
+  font-size: var(--body-font-size-m);
+  line-height: 1.5;
+  color: var(--color-navy);
+}
+
+.cards-feature .cards-feature-card-body p strong {
+  font-size: var(--heading-font-size-s);
+  font-weight: 700;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.cards-feature-wrapper {
+  padding: 0;
+}
+
+@media (width >= 600px) {
+  /* When section has multiple cards-feature wrappers, lay them out in a grid */
+  .section.cards-feature-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section.cards-feature-container > .default-content-wrapper {
+    width: 100%;
+  }
+
+  .section.cards-feature-container > .cards-feature-wrapper {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .cards-feature > ul > li img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+@media (width >= 900px) {
+  .section.cards-feature-container > .cards-feature-wrapper {
+    width: 25%;
+  }
+
+  .cards-feature > ul > li img {
+    width: 160px;
+    height: 160px;
+  }
+}
