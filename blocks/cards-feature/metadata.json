@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-feature",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-20T14:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.gpe.co.uk/",
+    "originPage": "GPE corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "value-proposition",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + paragraph",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature/value proposition grids",
+      "why us sections",
+      "benefit highlights with images"
+    ],
+    "notSuitableFor": [
+      "article listings with dates",
+      "promotional category cards",
+      "news cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-20T14:00:00.000Z"
+  }
+}

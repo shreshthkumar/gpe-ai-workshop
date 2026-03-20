@@ -1,0 +1,23 @@
+{
+  "status": "success",
+  "url": "https://www.gpe.co.uk/",
+  "path": "index",
+  "timestamp": "2026-03-20T14:20:40.093Z",
+  "title": "Fully Managed, Fitted & Ready-to-fit Workspace & Retail Space in London | GPE",
+  "template": "homepage",
+  "blocks": [
+    "carousel-hero",
+    "cards-promo",
+    "columns-banner",
+    "embed-search",
+    "cards-listing",
+    "cards-listing",
+    "cards-listing",
+    "cards-listing",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "cards-feature",
+    "carousel-testimonial"
+  ]
+}

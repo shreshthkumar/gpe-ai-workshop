@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-testimonial",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-03-20T14:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.gpe.co.uk/",
+    "originPage": "GPE corporate homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "testimonial",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + quote + name + company",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "customer testimonial carousels",
+      "team member spotlights",
+      "quote carousels with photos"
+    ],
+    "notSuitableFor": [
+      "hero image carousels",
+      "product showcase sliders",
+      "image-only galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-20T14:00:00.000Z"
+  }
+}

@@ -1,0 +1,48 @@
+/* Embed Search - GPE "Find the perfect space" search section */
+
+.embed-search {
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--color-navy);
+  border-radius: var(--border-radius-lg);
+  padding: 40px 20px;
+  box-sizing: border-box;
+  text-align: center;
+  min-height: 0;
+}
+
+.embed-search .embed-search-iframe {
+  width: 100%;
+  min-height: 120px;
+  border: 0;
+  border-radius: var(--border-radius-sm);
+  background-color: var(--color-navy);
+  color-scheme: dark;
+}
+
+/* Fallback link styling when no iframe */
+.embed-search a {
+  color: var(--color-mint);
+  font-weight: 600;
+  font-size: var(--body-font-size-m);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  border: 2px solid var(--color-mint);
+  border-radius: var(--border-radius-pill);
+  transition: all var(--transition-base);
+}
+
+.embed-search a:hover {
+  background-color: var(--color-mint);
+  color: var(--color-navy);
+  text-decoration: none;
+}
+
+@media (width >= 900px) {
+  .embed-search {
+    padding: 50px 40px;
+  }
+}

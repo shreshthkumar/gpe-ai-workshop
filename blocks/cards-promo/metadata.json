@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-promo",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-03-20T14:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.gpe.co.uk/",
+    "originPage": "GPE corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "category-promo",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + paragraph",
+    "buttonCount": 0,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "category/service overview cards",
+      "workspace type promotions",
+      "large promotional card grids"
+    ],
+    "notSuitableFor": [
+      "article listings",
+      "news cards with dates",
+      "feature grids without images"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-20T14:00:00.000Z"
+  }
+}

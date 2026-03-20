@@ -1,0 +1,39 @@
+{
+  "variantName": "carousel-hero",
+  "baseBlock": "carousel",
+  "version": "1.0.0",
+  "created": "2026-03-20T14:00:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.gpe.co.uk/",
+    "originPage": "GPE corporate homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "spacious",
+    "purpose": "property-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "image + heading + paragraph + CTAs",
+    "buttonCount": 2,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "homepage hero carousels",
+      "property showcase sliders",
+      "full-width image carousels with text overlay"
+    ],
+    "notSuitableFor": [
+      "testimonial carousels",
+      "image-only galleries",
+      "text-only carousels"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["content/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-03-20T14:00:00.000Z"
+  }
+}
